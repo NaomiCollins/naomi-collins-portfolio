@@ -12,16 +12,18 @@ export default function About() {
 
       <div className="mt-16 grid gap-8 lg:grid-cols-[1.6fr_1fr]">
         <Reveal className="glass-card glass-card-hover rounded-3xl p-8 sm:p-10">
-          <p className="text-lg leading-relaxed text-neutral-300 text-balance">
-            {profile.summary}
-          </p>
-          <p className="mt-5 text-base leading-relaxed text-neutral-400">
-            My approach is simple: understand the question first, then let the
-            data decide. I have shipped forecasting models, executive dashboards
-            and real-time pipelines — but the work I am most proud of is when a
-            stakeholder looks at a dashboard and immediately knows what to do
-            next.
-          </p>
+          <p className="text-left text-lg leading-relaxed text-neutral-300">
+  {profile.summary}
+</p>
+
+<p className="mt-5 text-left text-lg leading-relaxed text-neutral-300">
+  I specialise in transforming complex datasets into actionable business
+  insights across finance, retail, and operations. My experience spans KPI
+  development, forecasting, predictive modelling, dashboard development,
+  CRM analytics, and process automation, with a strong focus on improving
+  operational efficiency, optimising revenue, and supporting data-driven
+  decision-making.
+</p>
         </Reveal>
 
         <div className="grid grid-cols-2 gap-4">
