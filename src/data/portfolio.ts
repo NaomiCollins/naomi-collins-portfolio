@@ -182,7 +182,7 @@ export const experiences: Experience[] = [
   },
 
   {
-    role: 'Documentation Controller          ',
+    role: 'Documentation Controller',
     company: 'Tecnicas Reunidas',
     period: 'Jun 2022 – Jun 2023',
     location: 'Bangalore, India',
