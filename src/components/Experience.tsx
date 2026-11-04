@@ -34,14 +34,14 @@ export default function Experience() {
                 <div className="hidden sm:block sm:w-1/2" />
 
                 <div className="glass-card glass-card-hover rounded-2xl p-6 sm:w-1/2 sm:max-w-md">
-                  <div className="flex flex-wrap items-baseline justify-between gap-x-3">
-                    <h3 className="text-base font-semibold text-white">
-                      {exp.role}
-                    </h3>
-                    <span className="text-xs font-medium text-accent-300/80">
-                      {exp.period}
-                    </span>
-                  </div>
+                  <div className="flex flex-col gap-1">
+  <h3 className="text-base font-semibold text-white">
+    {exp.role}
+  </h3>
+  <span className="text-xs font-medium text-accent-300/80">
+    {exp.period}
+  </span>
+</div>
                   <p className="mt-1 text-sm text-neutral-400">
                     {exp.company} · {exp.location}
                   </p>
