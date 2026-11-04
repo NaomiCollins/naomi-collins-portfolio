@@ -168,9 +168,9 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    role: 'Freelance Operations & Data Analyst',
+    role: 'Contract Operations & Data Analyst',
     company: 'Clifton Group',
-    period: 'Jun 2023 – Present',
+    period: 'Jun 2023 – Sept 2026',
     location: 'London, UK',
     description:
       'Delivering operational analytics, financial reporting and demand forecasting solutions to improve business performance across retail operations.',
